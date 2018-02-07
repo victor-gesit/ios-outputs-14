@@ -13,6 +13,8 @@
 		0D8A26DA1FE03A3700A0FE50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D8A26D91FE03A3700A0FE50 /* Assets.xcassets */; };
 		0D8A26DD1FE03A3700A0FE50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D8A26DB1FE03A3700A0FE50 /* LaunchScreen.storyboard */; };
 		0D8A26E81FE03A3700A0FE50 /* Output14Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8A26E71FE03A3700A0FE50 /* Output14Tests.swift */; };
+		0D8A26F31FE1246C00A0FE50 /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8A26F21FE1246C00A0FE50 /* ButtonViewController.swift */; };
+		0D8A26F51FE1249200A0FE50 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8A26F41FE1249200A0FE50 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		0D8A26E31FE03A3700A0FE50 /* Output14Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Output14Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D8A26E71FE03A3700A0FE50 /* Output14Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Output14Tests.swift; sourceTree = "<group>"; };
 		0D8A26E91FE03A3700A0FE50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D8A26F21FE1246C00A0FE50 /* ButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
+		0D8A26F41FE1249200A0FE50 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				0D8A26D91FE03A3700A0FE50 /* Assets.xcassets */,
 				0D8A26DB1FE03A3700A0FE50 /* LaunchScreen.storyboard */,
 				0D8A26DE1FE03A3700A0FE50 /* Info.plist */,
+				0D8A26F21FE1246C00A0FE50 /* ButtonViewController.swift */,
+				0D8A26F41FE1249200A0FE50 /* TableViewController.swift */,
 			);
 			path = Output14;
 			sourceTree = "<group>";
@@ -200,7 +206,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D8A26D51FE03A3700A0FE50 /* ViewController.swift in Sources */,
+				0D8A26F31FE1246C00A0FE50 /* ButtonViewController.swift in Sources */,
 				0D8A26D31FE03A3700A0FE50 /* AppDelegate.swift in Sources */,
+				0D8A26F51FE1249200A0FE50 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4EG6Z5662E;
 				INFOPLIST_FILE = Output14/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gesit.Output14;
@@ -368,6 +377,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4EG6Z5662E;
 				INFOPLIST_FILE = Output14/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gesit.Output14;
